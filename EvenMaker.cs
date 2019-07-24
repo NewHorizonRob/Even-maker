@@ -8,15 +8,15 @@ namespace Ch8_EvenMaker
 {
     class EvenMaker
     {
-        int[] numbers;
-        static Random rand = new Random();
+        int[] numbers; #creates an array called numbers
+        static Random rand = new Random(); #intializes the random class for use 
 
-        public EvenMaker(int size)
+        public EvenMaker(int size) #method with an integer as a parameter 
         {
             numbers = new int[size];
         }
 
-        public void Fill()
+        public void Fill() 
         {
             for (int i = 0; i < numbers.Length; i++)
             {
